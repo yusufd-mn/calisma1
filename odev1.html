@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>odev1</title>
+    <link rel="stylesheet" type="text/css" href="scratch.css">
+</head>
+<body>
+        <div class="logo">
+            <img src="untitled1/logo.png" height="70" width="100"/>
+        </div>
+        <div class="evtemizligi">
+            <p>İlçe</p>
+            <select name=” optionlist ” onChange=”combo(this, ’demo’)”>
+                <option>seçiniz</option>
+                <option>kadıköy</option>
+                <option>maltepe</option>
+                <option> beşiktaş </option>
+                <option> ataşehir </option>
+            </select>
+
+            <p>semt</p>
+            <select name=” optionlist ” onChange=”combo(this, ’demo’)”>
+                <option>seçiniz</option>
+                <option>feneryolu</option>
+                <option>esneknet</option>
+                <option> zümrütevler </option>
+                <option> ataşehir </option>
+            </select>
+            <p>Traih ve saat seçiniz</p>
+            <input type="datetime-local" name="bdaytime">
+        </div>
+        <div class="kat">
+            <p>Eviniz kaç kaltlı ?</p>
+            <button type="submit" form="form1" value="Submit">Mustakil</button>
+            <button type="submit" form="form1" value="Submit">Dubleks</button>
+            <button type="submit" form="form1" value="Submit">Tripleks</button>
+
+        </div>
+        <div class="zaman">
+        <p>Evinizi ne sıklıkla temizlemeye gelelim?</p>
+        <button type="submit" form="form1" value="Submit">Haftada bir</button>
+        <button type="submit" form="form1" value="Submit">İki hafda bir</button>
+        <button type="submit" form="form1" value="Submit">Tek sefer</button>
+
+        </div>
+</body>
+</html>
