@@ -1,0 +1,522 @@
+.tum{
+    margin-left: 300px;
+}
+.logo{
+    float: left;
+}
+.hbir{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    margin-top: 50px;
+    clear: both;
+
+}
+.hbir:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.hiki{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+
+}
+.hiki:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.tek{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+
+}
+.tek:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.mustakil{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+
+
+}
+.mustakil:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.dubleks{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+
+}
+.dubleks:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.tripleks{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+
+}
+.tripleks:hover{
+    background-color:#f60;
+    color:#fff;
+}
+.katt{
+    margin-top: 20px;
+}
+.zaman
+{
+    margin-top: 30px;
+}
+.zamann{
+    margin-top: 30px;
+}
+.buzdolabi{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    height: 50px;
+    width: 100px;
+    float: left;
+
+
+}
+.buzdolabi:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.dolap{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    height: 50px;
+    width: 100px;
+    float: left;
+
+
+}
+.dolap:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.cam{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    height: 50px;
+    float: left;
+
+}
+.cam:hover{
+    background-color:#f60;
+    color:#fff;}
+.ekhizmet{
+    margin-top: 20px;
+}
+.ekhizmett{
+    margin-top: 40px;
+}
+.fırın{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    height: 50px;
+    clear: both;
+    float: left;
+
+
+}
+.fırın:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.utubir{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    height: 50px;
+    float: left;
+
+}
+.utubir:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.utuiki{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    height: 50px;
+    float: left;
+
+}
+.utuiki:hover{
+    background-color:#f60;
+    color:#fff;}
+.evcilhayvan{
+    clear: both;
+}
+.yazı{
+    float: left;
+}
+.hayır{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    float: left;
+
+
+}
+.hayır:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.köpek{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    float: left;
+
+
+}
+.köpek:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.kedi{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    float: left;
+
+
+}
+.kedi:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.kus{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    clear: both;
+    float: left;
+
+
+}
+.kus:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.balik{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    float: left;
+
+
+}
+.balik:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.diger{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 60px;
+    float: left;
+
+
+}
+.diger:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.temizlikmalzemeri{
+    clear: both;
+    float: left;
+    margin-top: 10px;
+}
+.malzemelogo{
+    float: left;
+}
+
+.evet{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    float: left;
+    clear: both;
+
+
+}
+.evet:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.hayırr{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    float: left;
+
+
+}
+.hayırr:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.personel{
+    clear: both;
+    float: left;
+    margin-top: 10px;
+}
+.anahtarlogo{
+    float: left;
+}
+
+
+.evdeolucam{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    float: left;
+    clear: both;
+
+
+}
+.evdeolucam:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.anahtarbırakıcam{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    float: left;
+
+
+}
+.anahtarbırakıcam:hover{
+    background-color:#f60;
+    color:#fff;}
+
+.personelnot{
+    clear: both;
+}
+
+.not{
+    clear: both;
+}
+.devamet{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #f60; border-radius:7px;
+    font-size: 13px;
+    padding:10px 20px;
+    width: 100px;
+    clear: both;
+    margin-top: 170px;
+    margin-left: 260px;
+}
+.devamet:hover{
+    background-color:#f60;
+    color:#fff;}
+.ekhizmettt{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.gpolitikalogo{
+    margin-top: 60px;
+    float: left;
+
+}
+.gpolitikayazı{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+
+.facebooklogo{
+    float: left;
+    clear: both;
+    margin-left: 260px;
+    margin-top: -15px;
+}
+.facebookyazı{
+    margin-top: -15px;
+
+}
+.instagramlogo{
+    float: left;
+    margin-left: 260px;
+    margin-top: -15px;
+
+}
+.instagramyazı{
+    margin-top: -15px;
+}
+.twitterlogo{
+    float: left;
+    margin-left: 260px;
+    margin-top: -15px;
+
+}
+.twitteryazı{
+    margin-top: -15px;
+}
+.ksozlesmelogo{
+    clear: both;
+    float: left;
+    margin-top: -50px;
+
+}
+.ksozlemeyazı{
+    margin-top: -65px;
+    margin-left: 20px;
+    float: left;
+}
+.tsozlesmelogo{
+    clear: both;
+    float: left;
+    margin-top: -30px;
+
+}
+.tsozlemeyazı{
+    margin-top: -45px;
+    margin-left: 20px;
+    float: left;
+}
+.konumlogo{
+    clear: both;
+    margin-top: -75px;
+    margin-left: 400px;
+    float: left;
+}
+.konumyazı{
+    margin-top: -71px;
+    margin-left: 420px;
+
+}
+.maillogo{
+    clear: both;
+    margin-top: -55px;
+    margin-left: 400px;
+    float: left;
+}
+.mailyazı{
+    margin-top: -71px;
+    margin-left: 420px;
+    float: left;
+
+}
+.iletişimlogo{
+    clear: both;
+    margin-top: -35px;
+    margin-left: 400px;
+    float: left;
+}
+.iletişimyazı{
+    margin-top: -51px;
+    margin-left: 420px;
+    float: left;
+
+}
+.logo1{
+    margin-top: -70px;
+    margin-left: 760px;
+}
+.logo1yazı{
+    margin-left: 700px;
+}
+.yazı1{
+    width: 400px;
+    height: 500px;
+    margin-left: 700px;
+    margin-top: -1000px;
+}
+input[type=text]{
+    clear: both;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: -309px;
+    height: 30px;
+
+
+}
+input[type=textt]{
+    clear: both;
+    width: 300px;
+    margin-top: -45px;
+    margin-left: -280px;
+    height: 30px;
+}
+.temizlikklogo{
+    margin-top: -5px;
+    margin-left: -60px;
+}

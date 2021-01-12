@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>odev1</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="odev.css">
+</head>
+<body>
+<div class="tum">
+        <div class="logo">
+            <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/logo.png" height="50" width="100"/></div>
+    <div class="menu"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/menu.png" height="60"
+                           width="400"/></div>
+        <div class="evtemizligi">
+            <p>İlçe</p>
+            <select name=” optionlist ” onChange=”combo(this, ’demo’)”>
+                <option>seçiniz</option>
+                <option>kadıköy</option>
+                <option>maltepe</option>
+                <option> beşiktaş </option>
+                <option> ataşehir </option>
+            </select>
+
+            <p>semt</p>
+            <select name=” optionlist ” onChange=”combo(this, ’demo’)”>
+                <option>seçiniz</option>
+                <option>feneryolu</option>
+                <option>esneknet</option>
+                <option> zümrütevler </option>
+                <option> ataşehir </option>
+            </select>
+            <p>Traih ve saat seçiniz</p>
+            <input type="datetime-local" name="bdaytime">
+        </div>
+    <div class="evcilhayvan"><div class="yazı"> <p><strong>Eviniz kaç katlı?</strong></p></div>
+        <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/evinizkaçkatlı-Recovered.png" height="45"
+             width="39"/>
+        <div class="katt">
+         <a href="#" class="mustakil">mustakil</a>
+            <a href="#" class="dubleks">dubleks</a>
+            <a href="#" class="tripleks">tripleks</a></div>
+
+
+
+
+
+        <div class="evcilhayvan"><div class="yazı"> <p><strong>Evinizi temizlemeye hangi sıklıkla gelelim?</strong></p></div>
+            <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/hangisıklıklagelelim.png" height="47"
+                 width="41"/>
+            <div class="zaman">
+            <a href="#" class="hbir">Haftda bir</a>
+            <a href="#" class="hiki">İki haftada bir</a>
+            <a href="#" class="tek">Tek sefer</a>
+
+
+        </div>
+            <div class="ekhizmet"><div class="yazı"> <p><strong>Ek hizmetler</strong></p></div>
+              <div class="ekhizmettt">  <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/ütüü.png" height="23" width="35"/></div>
+
+
+                <div class="ekhizmett">
+           <a href="#" class="buzdolabi"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/odevv coy.png"
+                                              height="25" width="15"/>Buz dolabi temizliği <strong><br>5TL</strong></a>
+           <a href="#" class="dolap"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/dolap-Recovered.png" height="25"
+                   width="20"/>Dolap temizliği  <strong><br>25TL</strong></a>
+           <a href="#" class="cam"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/odevv copy.png"
+                                        height="25" width="15"/>İç cam temizliği  <strong><br>25TL</strong></a>
+           <a href="#" class="fırın"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/fırın-Recovered.png" height="22"
+                   width="37"/>Fırın temizliği <strong><br>5TL</strong></a>
+           <a href="#" class="utubir">15 parça ütü <strong><br>25TL</strong></a>
+           <a href="#" class="utuiki">30 parça ütü <strong><br>25TL</strong></a>
+       </div>
+        <div class="evcilhayvan"><div class="yazı"> <p><strong>Evcil hayvanınız var mı?</strong></p></div><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/evcilhayvan.png"
+                                      height="50" width="51"/>
+            <div class="hayvan">
+                <a href="#" class="hayır">Hayır</a>
+                <a href="#" class="köpek"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/Unttled-1.png"
+                                               height="20" width="20"/>Köpek</a>
+                <a href="#" class="kedi"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/kedi.png"
+                                              height="20" width="20"/>Kedi</a>
+                <a href="#" class="kus"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/kuş.png"
+                                             height="20" width="20"/>Kuş</a>
+                <a href="#" class="balik"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/balık.png"
+                                               height="20" width="20"/>Balık</a>
+                <a href="#" class="diger">Diğer</a>
+              <input type="text" placeholder="diğer..">
+            </div>
+        </div>
+    <div class="temizlikmalzemeri">  <div class="malzemelogo"><p><strong>Temizlik malzemlerimizi yanımızada getirelim mi?</strong></p></div>
+
+
+        <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/temizlikmalzemeleri (1).png" height="50"
+             width="51"/>
+        <a href="#" class="evet">Evet <strong>40TL</strong></a>
+        <a href="#" class="hayırr">Hayır</a>
+    </div>
+
+    <div class="personel">  <div class="anahtarlogo"><p><strong>Temizlik personeli evinze nasıl girebilir?</strong></p></div>
+
+
+        <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/anahtar.png" height="50" width="51"/>
+        <a href="#" class="evdeolucam">Evde olucam</a>
+        <a href="#" class="anahtarbırakıcam">Anahtar bırakıcam</a>
+    </div>
+    <div class="personelnot">
+        <div class="anahtarlogo"><p><strong>Temizlik personeline notunuz var mı?</strong></p>
+        </div>
+    </div>
+   <div class="temizlikklogo"> <img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/not (1).png" height="46" width="40"/></div>
+                <input type="textt" placeholder="notunuzu giriniz">
+    <a href="#" class="devamet">Devam et</a>
+
+     <div class="gpolitikalogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/kilitlogo.png" height="20" width="20"/></div><div class="gpolitikayazı"><p>Gizlilik politikası</p></div>
+    <div class="facebooklogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/facebooklogo.png" height="20" width="20"/></div><div class="facebookyazı"><p>Facebook</p></div>
+    <div class="instagramlogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/instagramlogo (2).png" height="20" width="20"/></div><div class="instagramyazı"><p>İnstagram</p></div>
+    <div class="twitterlogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/twitterlogo (1).png" height="20" width="20S"/></div><div class="twitteryazı"><p>Twitter</p></div>
+    <div class="ksozlesmelogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/sözleşmelogo (1).png" height="20" width="20"/></div><div class="ksozlemeyazı"><p>Kullanıcı sözleşmesi</p></div>
+    <div class="tsozlesmelogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/sözleşmelogo (1).png" height="20" width="20"/></div><div class="tsozlemeyazı"><p>Temizlik işeri aracı sözleşmesi</p></div>
+    <div class="konumlogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/konumlogo.png" height="20" width="20"/></div><div class="konumyazı"><p>buraya konum yazılıcak</p></div>
+    <div class="maillogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/gmaillogo.png" height="20" width="20"/></div><div class="mailyazı"><p>info@evdetemizlikvar.com</p></div>
+    <div class="iletişimlogo"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/iletişimlogo (2).png" height="20" width="20"/></div><div class="iletişimyazı"><p>0850 885 4 388</p></div>
+    <div class="logo1"><img src="../AppData/Roaming/JetBrains/PhpStorm2020.3/scratches/logo.png" height="60" width="100"/></div>
+     <div class="logo1yazı">Hygenic Temizlik Gıda Turisiz <br> Hizm. San. ve Tic. Ltd.Şti</div>
+                <div class="yazı1">
+                    <p>
+                      <h3> Sıkça sorulan sorular </h3>
+                    </p>
+                    <p>Temizliğe neler dahil ?<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+</body>
+</html>
